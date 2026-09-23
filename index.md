@@ -32,9 +32,8 @@ You need to have opened an account with [PayItMonthly](https://payitmonthly.uk).
 ## HTML Form Based Application
 
 ```markdown
-<form action="https://payitmonthly.uk/simple-integration/" method="post"> 
+<form action="https://app.payitmonthly.uk/simple-integration" method="get"> 
     <input type="hidden" name="identification_key" value="adfwt2894ahgBUDSFOHE8we9"/>
-    <input type="hidden" name="identification_version" value="1.0.0"/>
     <input type="hidden" name="goods_description" value="Photos - CD - Gold Package"/> 
     <input type="hidden" name="goods_price" value="60000"/> 
     <input type="hidden" name="finance_deposit_total" value="6000"/> 
